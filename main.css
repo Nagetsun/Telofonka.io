@@ -119,19 +119,28 @@ h2{
     font: 1em sans-serif;
     font-size: 17px
 }
-ul>li{
+ul>a{
     display: flex;
     height: 30px;
     width: 180px;
     background-color: #3f7ac7;
-    border-color: rgb(255 255 255);
-    border-width: 2.5px;
+    border-color:rgb(207 29 29);
+    border-width: 4px;
     align-items: center;
     justify-content: center;
     margin: 15px;
     border-radius: 15px 15px 15px 15px;
     font: 1em sans-serif;
     font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom-style: outset;
+    transition: all 1s ease;
+}
+ul>a:active{
+    border-width: 2px;
+    border-bottom-style: outset;
+    border-color:rgb(207 29 29);
 }
 .spisok_menu{
     display: flex;
